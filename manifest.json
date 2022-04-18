@@ -1,0 +1,29 @@
+{
+    "name": "Dark Neto'centre",
+    "description": "Mode sombre pour netocentre.fr et quelques éléments !",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "back.js"
+    },
+    "content_scripts": [
+      {
+        "js": ["back.js"],
+        "css": ["netocentre.css"],
+        "matches": ["*://*.netocentre.fr/*"]
+      }
+    ],
+    "host_permissions": [
+      "*://*/*"
+    ],
+    "permissions": ["tabs", "scripting"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "256": "/icons/PRONOTE_Icone_client.png"
+      }
+    },
+    "icons": {
+      "256": "/icons/PRONOTE_Icone_client.png"
+    }
+  }

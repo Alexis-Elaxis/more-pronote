@@ -1,0 +1,41 @@
+:root {
+    --background-color: rgb(37, 37, 37);
+    --background-colorlight: rgb(66, 66, 66);
+}
+
+div.col-md-12 {
+    background-color: var(--background-color);
+}
+
+footer, div.container, div.verticalBoxConnect, div#content {
+    background-color: var(--background-color);
+}
+
+div.panel-body {
+    background-color: var(--background-colorlight);
+    color: white;
+}
+
+div.colorFontCentrePortal, h1.title, p.panel-heading {
+    color: white;
+}
+
+footer.footerTop, footer.footerBottom, div.region-page-bottom div.row div.col-sm-12, p.alert {
+    display: none;
+}
+
+h1.title {
+    margin-top: 0px;
+}
+
+footer#region-footer-second {
+    display: none;
+}
+
+div#portalPageBody, div.content {
+    background-color: var(--background-color);
+}
+
+div.brique a {
+    border: 1px solid var(--background-colorlight);
+}
