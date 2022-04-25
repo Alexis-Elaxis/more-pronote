@@ -1,0 +1,2 @@
+# more-pronote
+Chrome extension
